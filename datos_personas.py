@@ -2,10 +2,10 @@ from os import system
 
 nombre_1 = input('Escribe tu nombre: ')
 system('cls')
-nombre_2 = input('Escribe tu nombre: ')
+edad_1 = int(input(f'{nombre_1} indica que edad tienes: '))
 system('cls')
 
-edad_1 = int(input(f'{nombre_1} indica que edad tienes: '))
+nombre_2 = input('Escribe tu nombre: ')
 system('cls')
 edad_2 = int(input(f'{nombre_2} Indica que edad tienes: '))
 system('cls')
